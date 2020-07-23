@@ -1,4 +1,6 @@
-<plist version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
 <dict>
 <key>items</key>
 <array>
@@ -9,7 +11,7 @@
 <key>kind</key>
 <string>software-package</string>
 <key>url</key>
-<string>你的服务器ipa下载地址</string>
+<string>http://192.168.129.190:8080/Avant.ipa</string>
 </dict>
 <dict>
 <key>kind</key>
@@ -17,31 +19,19 @@
 <key>needs-shine</key>
 <true/>
 <key>url</key>
-<string>
-你的服务器下载时URL图片png格式
-</string>
-</dict>
-<dict>
-<key>kind</key>
-<string>display-image</string>
-<key>needs-shine</key>
-<true/>
-<key>url</key>
-<string>
-你的服务器下载时的图片地址png格式
-</string>
+<string>https://enterprise.cloudpay.com.cn/app/packages/iphone-2x.png</string>
 </dict>
 </array>
 <key>metadata</key>
 <dict>
 <key>bundle-identifier</key>
-<string>标识，就是包名</string>
+<string>BT.Avanker</string>
 <key>bundle-version</key>
-<string>版本号</string>
+<string>1.0</string>
 <key>kind</key>
 <string>software</string>
 <key>title</key>
-<string>app名字</string>
+<string>测试包</string>
 </dict>
 </dict>
 </array>
